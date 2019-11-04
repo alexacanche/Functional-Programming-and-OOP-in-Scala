@@ -37,6 +37,6 @@ object EmptyList extends SimpleList[Nothing] {
 val oddNumbers = 1 :: 3 :: 5 :: 7 :: EmptyList
 
 println(oddNumbers.length)
-println(oddNumbers.tail)
-println(oddNumbers.tail)
+println(oddNumbers.head)
+println(oddNumbers.isEmpty)
 
